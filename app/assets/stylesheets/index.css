@@ -1,0 +1,44 @@
+/********최상단 큰 이미지 설정***********************/
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("brain.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/***************************************************/
+.jumbotron{
+	text-align: center;
+}
+
+.jumbotron > h1{
+	color:navy;
+}
+
+.jumbotron > p {
+	margin-top:30px;
+	font-size:18px;
+}
+
+.page-header {
+  margin-top: 100px;
+}
+
+#profile-description {
+  text-align: center;
+}
+
+#profile-photo {
+  width: 80%;
+}
